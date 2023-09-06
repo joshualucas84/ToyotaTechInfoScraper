@@ -17,7 +17,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 settings = globals.getSettings()
 globals.setRootUrl(settings["root_url"])
 globals.setRootDir(fr'{settings["root_dir"]}')
-globals.setDirectory(settings["toyota_remote_dir"])  ## TODO: Replace with the URL for the directory you want to scrape (see README.md)
+globals.setDirectory(settings["toyota_remote_dir"])
 globals.setUsername(settings["username"])
 globals.setPassword(settings["password"])
 globals.setDefaultDownloadDir(settings["default_download_dir"])
